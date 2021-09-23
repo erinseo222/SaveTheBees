@@ -1,0 +1,405 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.wrap {
+    width: 800px; 
+    margin: 0 auto;
+}
+.header {
+    background-color: black;
+    height: 90px;
+    width: 800px;
+}
+
+hr.rounded {
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.logo-box {
+    float: left;
+    /* top: 40px;
+    left: 40px; */
+}
+
+.logo {
+    width: 220px;
+    height: 80px;
+}
+
+.nav-container {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    /* width:0%; */
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style-type: none;
+
+}
+
+.nav-item {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nav-item a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    background-color: #262729;
+    min-height: 700px;
+    width: 800px;
+}
+
+.banner-box {
+    width: 800px;
+    height: 400px;
+}
+
+.banner {
+    width: 100%;
+    height: 100%;
+}
+
+.button-box {
+    height: 40px;
+
+}
+.button-container {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    /* width:0%; */
+    margin: 0;
+    padding: 0;
+    background-color: #262729;
+    list-style-type: none;
+
+}
+
+.button-item {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.button-item a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.section {
+    padding: 20px;
+    /* border: 1px solid black; */
+    color: white;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.facts-section {
+    padding: 10px;
+    width: 90%;
+    height: 200px;
+}
+
+.facts-container {
+    width: 100%;
+    height: 100%;
+}
+
+.facts-info {
+    float: left;
+    margin-top: 10px;
+   
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.facts-img {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.facts-column {
+    float: left;
+    width: 47%;
+    padding: 0 10px;
+}
+
+/* https://www.w3schools.com/howto/howto_css_column_cards.asp */
+/* Remove extra left and right margins, due to padding in columns */
+.facts-row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.facts-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.facts-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.sectionmatter {
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+   
+}
+
+
+.beesmatter {
+    width: 100%;
+    /* height: 400px; */
+}
+
+.matter-caption {
+    font-size: 100%;
+    padding: 16px;
+    margin-top: -10px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    background-color: seashell;
+    color: black;
+}
+
+.matter-info {
+    padding: 20px;
+    color: white;
+}
+
+.pollinating {
+    width: 100%;
+    /* height: 350px; */
+}
+
+.threats-image-title {
+    /* border: 1px solid green; */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.threats-image-title-item {
+    float: left;
+    height: 40px;
+    border-right: 1px solid darkgray;
+    padding-right: 20px;
+}
+
+.threats-image-title-item-last {
+    float: left;
+    height: 40px;
+    /* border: 1px solid red; */
+    padding-left: 20px;
+}
+
+
+.threats-image-title-item-label {
+    display: block;
+    color: darkgray;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+/* .threats-image-title p {
+    font-size: 10px;
+} */
+
+.threats-caption {
+    font-size: 100%;
+    padding: 16px;
+    margin-top: -10px;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    background-color: seashell;
+    color: black;
+}
+
+.threats-info {
+    box-sizing: border-box;
+}
+  
+  /* Create three equal columns that floats next to each other */
+.threats-info {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+.threats-info {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.threats-column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+}
+
+/* https://www.w3schools.com/howto/howto_css_column_cards.asp */
+/* Remove extra left and right margins, due to padding in columns */
+.threats-row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.threats-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.threats-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.adoptabee {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.adoptabee-btn-container {
+    position: relative;
+    width: 60%;
+    margin: auto;
+  }
+  
+  /* Make the image responsive */
+.adoptabee-btn-container img {
+    width: 100%;
+    height: auto;
+}
+  
+  /* Style the button and place it in the middle of the container/image */
+.adoptabee-btn-container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: #555; */
+    background-color: rgb(190, 60, 202);
+    color: white;
+    font-size: 16px;
+    padding: 20px 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  
+.adoptabee-btn-container .btn:hover {
+    /* background-color: black; */
+    background-color: rgb(80, 4, 87);
+}
+
+.who-main-img {
+    width: 800px;
+    /* height: 300px; */
+}
+
+.section-img {
+    width: 760px;
+    /* height: 260px; */
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 800px;
+    /* padding: 10px; */
+    /* border: 1px solid red; */
+}
+
+.footer-section {
+    padding: 10px 20px;
+    /* border: 1px solid black; */
+    /* color: white; */
+}
+
+/* .footer-section h1 {
+    text-align: center;
+} */
+
+.footer-item-container {
+    /* border: 1px solid green; */
+    /* margin-top: 30px;
+    margin-bottom: 10px; */
+    height: 40px;
+}
+
+.footer-item-first {
+    float: left;
+    height: 20px;
+    border-right: 1px solid darkgray;
+    /* padding-left: 10px; */
+    padding-right: 10px;
+}
+
+.footer-item-first a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-item {
+    float: left;
+    height: 20px;
+    border-right: 1px solid darkgray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-item-last {
+    float: left;
+    height: 40px;
+    /* border: 1px solid red; */
+    padding-left: 10px;
+}
+
+.footer-item-last a {
+    color: white;
+    text-decoration: none;
+}
+
+.author {
+    height:30px;
+    margin-top:10px;
+    margin-right:5px;
+    text-align: right;
+}
